@@ -1,0 +1,24 @@
+/*
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+*/
+#include <stdio.h>
+
+int main(){
+    int i, j, row, coloumn;
+    printf("Write 2 numbers\n");
+    scanf("%d%d", &row,&coloumn);
+    for(i=row;i>=1;i--)
+    {
+        for(j=1;j<=i;j++){
+        printf("* ");}
+        printf("\n");
+    }
+
+    return 0;
+}
