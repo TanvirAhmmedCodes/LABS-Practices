@@ -16,7 +16,7 @@ int main()
     else if (g >= 40)
         printf("Grade C");
     else
-        printf("Congratulations you failed mf\n");
+        printf("Grade F\n");
 
     return 0;
 }
