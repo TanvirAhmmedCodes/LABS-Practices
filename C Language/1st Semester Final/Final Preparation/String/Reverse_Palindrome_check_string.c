@@ -19,4 +19,5 @@ int main()
         printf("Palindrome");
     else
         printf("Not Palindrome");
+    return 0;
 }

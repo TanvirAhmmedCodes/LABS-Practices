@@ -6,4 +6,5 @@ int main(){
     gets(s1);
     strcpy(s2, s1);
     printf("Copied: %s", s2);
+    return 0;
 }
