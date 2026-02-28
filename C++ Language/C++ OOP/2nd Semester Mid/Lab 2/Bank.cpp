@@ -1,4 +1,5 @@
-/*Design a class named BankAccount.The class should have private attributes for account holder name, account number, and balance.
+/*
+Design a class named BankAccount.The class should have private attributes for account holder name, account number, and balance.
 Implement public methods to:
 •	Deposit an amount into the account
 •	Withdraw an amount from the account

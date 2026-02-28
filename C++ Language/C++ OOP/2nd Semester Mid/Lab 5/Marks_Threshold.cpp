@@ -1,14 +1,14 @@
 /*
-Create a class Student with attributes: name, id, and marks. The program should create an array (or list) of 5 Student objects, take input for their details, and perform the following operations:
-
-Calculate and display the average marks of all students.
-
-Ask the user to input a threshold mark.
-
-Display the names and marks of students who scored above the given threshold.
-
-To achieve this, include a member function inside the Student class that displays details of students whose marks are greater than the user-given value.
+Create a class Student with attributes: name, id, and marks. The program should create
+an array (or list) of 5 Student objects, take input for their details, and perform the
+following operations:
+1. Calculate and display the average marks of all students.
+2. Ask the user to input a threshold mark.
+3. Display the names and marks of students who scored above the given threshold.
+To achieve this, include a member function inside the Student class that displays details
+of students whose marks are greater than the user-given value.
 */
+
 #include <iostream>
 using namespace std;
 

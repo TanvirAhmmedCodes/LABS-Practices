@@ -1,8 +1,10 @@
-/*Design a class named Student that stores information about a
+/*
+Design a class named Student that stores information about a
 student's name, roll number, and marks in three subjects.
 Implement methods to calculate the total marks and average marks.
 Create two objects for this class, set the values, and display the
-students’ details along with the total and average marks.*/
+students’ details along with the total and average marks.
+*/
 
 #include <iostream>
 #include <string>

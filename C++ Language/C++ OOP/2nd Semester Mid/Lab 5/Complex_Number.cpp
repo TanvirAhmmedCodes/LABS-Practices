@@ -1,6 +1,13 @@
 /*
-Create a class Complex with private data members real and imag to represent a complex number. The class should provide public member functions to input and display complex numbers. Write a friend function named addComplex() that takes two Complex objects as parameters, accesses their private data members, adds the corresponding real and imaginary parts, and returns a new Complex object containing the result. In the main program, input two complex numbers from the user, call the friend function to compute their sum, and display the resulting complex number in the form a + bi. 
+Create a class Complex with private data members real and imag to represent a complex
+number. The class should provide public member functions to input and display complex
+numbers. Write a friend function named addComplex() that takes two Complex objects as
+parameters, accesses their private data members, adds the corresponding real and
+imaginary parts, and returns a new Complex object containing the result. In the main
+program, input two complex numbers from the user, call the friend function to compute
+their sum, and display the resulting complex number in the form a + bi.
 */
+
 #include <iostream>
 using namespace std;
 

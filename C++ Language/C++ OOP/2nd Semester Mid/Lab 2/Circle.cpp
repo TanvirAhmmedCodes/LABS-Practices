@@ -1,8 +1,10 @@
-/*Design a class named Circle that represents a circle. The class
+/*
+Design a class named Circle that represents a circle. The class
 should have private attribute for the radius of the circle. Implement
 public methods to calculate and return the area and circumference
 of the circle. Create an object of this class, set the radius, and
-display the area and circumference.*/
+display the area and circumference.
+*/
 
 #include <iostream>
 using namespace std;

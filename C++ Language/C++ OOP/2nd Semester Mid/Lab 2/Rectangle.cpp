@@ -1,8 +1,10 @@
-/*Design a class named Rectangle that represents a rectangle. The
+/*
+Design a class named Rectangle that represents a rectangle. The
 class should have private attributes for the length and width of the
 rectangle. Implement public methods to calculate and return the
 area and perimeter of the rectangle. Create an object of this class,
-set the length and width, and display the area and perimeter.*/
+set the length and width, and display the area and perimeter.
+*/
 
 #include <iostream>
 using namespace std;

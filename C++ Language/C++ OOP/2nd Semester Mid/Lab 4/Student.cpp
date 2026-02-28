@@ -1,3 +1,15 @@
+/*
+Create a C++ class named Student with three private data members: name
+(string), rollNumber (integer), and marks (float). The class should include public member
+functions to input student information from the user and to display the student details.
+Another public member function should be implemented to update the marks of a
+student.
+In the main() function, create two objects of the Student class. Use the input function to
+take the name, roll number, and marks for each student from the user. Display the
+information of both students. Then, update the marks of one student using the update
+function and display the updated information.
+*/
+
 #include <iostream>
 using namespace std;
 

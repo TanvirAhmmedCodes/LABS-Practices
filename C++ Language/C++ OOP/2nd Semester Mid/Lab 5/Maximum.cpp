@@ -1,11 +1,16 @@
 /*
-Write a C++ program to demonstrate the concept of function overloading by defining an overloaded function named Max(). The function should perform different operations based on the number and type of parameters passed to it. The Max() function must be overloaded to:
+Write a C++ program to demonstrate the concept of function overloading by defining an
+overloaded function named Max(). The function should perform different operations
+based on the number and type of parameters passed to it. The Max() function must be
+overloaded to:
 (i) find the maximum of two integers,
 (ii) find the maximum of three floating-point numbers, and
 (iii) find the maximum element in an array of integers, given the array and its size.
-
-In the main() function, take the necessary inputs from the user, call the appropriate overloaded versions of the Max() function, and display the results to clearly illustrate function overloading in C++.
+In the main() function, take the necessary inputs from the user, call the appropriate
+overloaded versions of the Max() function, and display the results to clearly illustrate
+function overloading in C++.
 */
+
 #include <iostream>
 using namespace std;
 
