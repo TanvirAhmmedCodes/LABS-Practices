@@ -36,36 +36,36 @@ public:
         return a * b;
     }
 
-    void divide()
+    T divide()
+{
+    if (b == 0)
     {
-        if (b == 0)
-        {
-            cout << "Division by zero not allowed" << endl;
-        }
-        else
-        {
-            cout << a / b << endl;
-        }
+        return 0;
     }
+    else
+    {
+        return a / b;
+    }
+}
 };
 
 int main()
 {
-    Calculator<int> obj1;
-    obj1.setValues(10, 5);
+    Calculator<int> c1;
+    c1.setValues(10, 5);
 
-    cout << obj1.add() << endl;
-    cout << obj1.subtract() << endl;
-    cout << obj1.multiply() << endl;
-    obj1.divide();
+    cout << "Addition: " << c1.add() << endl;
+    cout << "Subtraction: " << c1.subtract() << endl;
+    cout << "Multiplication: " << c1.multiply() << endl;
+    cout << "Division: " << c1.divide() << endl;
 
-    Calculator<float> obj2;
-    obj2.setValues(7.5, 2.5);
+    Calculator<float> c2;
+    c2.setValues(7.5, 2.5);
 
-    cout << obj2.add() << endl;
-    cout << obj2.subtract() << endl;
-    cout << obj2.multiply() << endl;
-    obj2.divide();
+    cout << "Addition: " << c2.add() << endl;
+    cout << "Subtraction: " << c2.subtract() << endl;
+    cout << "Multiplication: " << c2.multiply() << endl;
+    cout << "Division: " << c2.divide() << endl;
 
     return 0;
 }
