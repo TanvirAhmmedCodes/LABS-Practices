@@ -12,48 +12,28 @@ Good Morning
 */
 
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
-class Merge_string
-{
-    int length;
-    char s[100];
+class Merge_string {
+    string s;
 
 public:
-    Merge_string()
-    {
-        length = 0;
-        s[0] = '\0';
+    Merge_string(string str = "") {
+        s = str;
     }
 
-    Merge_string(const char str[])
-    {
-        strcpy(s, str);
-        length = strlen(s);
+    friend Merge_string operator+(Merge_string a, Merge_string b) {
+        return Merge_string(a.s + " " + b.s);
     }
 
-    friend Merge_string operator+(Merge_string a, Merge_string b)
-    {
-        Merge_string temp;
-        strcpy(temp.s, a.s);
-        strcat(temp.s, " ");
-        strcat(temp.s, b.s);
-        temp.length = strlen(temp.s);
-        return temp;
-    }
-
-    void display()
-    {
+    void display() {
         cout << s << endl;
     }
 };
 
-int main()
-{
+int main() {
     Merge_string o1("Good"), o2("Morning"), o3;
-
     o3 = o1 + o2;
-
     o3.display();
 }

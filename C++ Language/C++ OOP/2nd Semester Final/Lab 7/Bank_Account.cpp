@@ -4,7 +4,7 @@ using operator overloading and single inheritance. Create a base class named Acc
 that stores information such as the account holder’s name, account number, and balance.
 Include member functions to deposit money, withdraw money, and display account
 details. Overload the + operator to allow adding the balances of two accounts, producing
-a new Account object that stores the total balance. Also, overload the &gt; operator to
+a new Account object that stores the total balance. Also, overload the > operator to
 compare two accounts and determine which one has a higher balance. Derive a subclass
 named SavingsAccount from Account, which contains an additional data member for
 interest rate and a function addInterest() that updates the balance by applying the interest
